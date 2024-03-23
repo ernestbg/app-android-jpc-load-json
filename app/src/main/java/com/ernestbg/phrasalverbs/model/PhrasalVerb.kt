@@ -12,5 +12,8 @@ data class PhrasalVerb(
 
     @ColumnInfo
     val headword: String,
-    val meaning: String
+    val definition: String,
+    val guideword: String,
+    val example: String
+
 )
